@@ -1,4 +1,5 @@
-# Project 1: Navigation (Javier Tausía Hoyal)
+# Project 1: Navigation
+### Javier Tausía Hoyal
 
 This public repository contains the basic files needed to train an agent to learn how to collect yellow bananas in the environment described below. This little project is part of the Udacity nanodegree program on DeepReinforcementLearning available at https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893.
 
@@ -43,6 +44,37 @@ The goal of the task was to train the agent to improve the average score of +13 
 Moreover, the following GIF shows the performance of the agent at the end of the training:
 
 ![Agent](trained-agent.gif)
+
+### Dependencies
+
+To set up your python environment to run the code in this repository, follow the instructions in https://github.com/javitausia/deep-reinforcement-learning (forked from the original one).
+
+1. Create (and activate) a new environment with Python 3.6.
+
+	- __Linux__ or __Mac__: 
+	```bash
+	conda create --name drlnd python=3.6
+	source activate drlnd
+	```
+	- __Windows__: 
+	```bash
+	conda create --name drlnd python=3.6 
+	activate drlnd
+	```
+
+2. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+```bash
+git clone https://github.com/javitausia/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+```
+
+3. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+```bash
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
+```
+
+4. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.
 
 ### Contact
 

@@ -33,7 +33,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Training files
 
-The repository has 3 main files that must be explained. The deep learning model is defined in `model.py`, the agent behaviour is defined in `dqn_agent.py` and the rest of the code is explained in `Navigation.ipynb`, where the Unity environment is loaded, paremeters are choosed and training performance can be seen.
+The repository has 3 main files that must be explained. The deep learning model is defined in `model.py`, the agent behaviour is defined in `dqn_agent.py` and the rest of the code is explained in `Navigation.ipynb`, where the Unity environment is loaded, paremeters are choosed and training performance can be seen. How the algorithm works is explained at `Report.pdf`.
 
 ### Trained agent
 
@@ -71,7 +71,7 @@ pip install .
 
 3. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
 ```bash
-python -m ipykernel install --user --name drlnd --display-name "drlnd"
+python -m ipykernel install --user --name drlnd --display-name 'drlnd'
 ```
 
 4. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu.
